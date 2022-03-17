@@ -48,7 +48,7 @@ summary(rna$disease)
 ```{r}
 ggplot(rna,
        aes(x = disease,
-           y = `10001_at`,
+           y = `100132116_at`,
            group = id)) +
   geom_point(position = position_dodge(0.3)) +
   theme_bw() +
